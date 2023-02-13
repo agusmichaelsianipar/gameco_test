@@ -1,8 +1,10 @@
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
 ## Project Maps
-- Hit localhost:8000/answer1 to access the answer of first test's question
-- Hit localhost:8000/answer3 to access the answer of third test's question
+- Hit this url to access the answer of first test's question
+> localhost:8000/answer1 
+- Hit this url to access the answer of third test's question
+> localhost:8000/answer3 
 - Below is the resource to api by consuming [swapi](https://swapi.dev/) : <br>
 * Films 
 >localhost:8000/api/films<br>
