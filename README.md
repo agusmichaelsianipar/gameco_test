@@ -4,7 +4,7 @@
 - Hit this url to access the answer of first test's question
 > localhost:8000/answer1 
 - Hit this url to access the answer of third test's question
-> localhost:8000/answer3 
+> localhost:8000/answer3/sizeofthepattern 
 - Below is the resource to api by consuming [swapi](https://swapi.dev/) : <br>
 * Films 
 >localhost:8000/api/films<br>
