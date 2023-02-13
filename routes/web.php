@@ -18,8 +18,6 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('foo.php', function () {
-    return public_path('answer/no1.php');
-});
-
 Route::get('/answer1', [Controller::class, 'answer1']);
+
+Route::get('/answer2/{size}', [Controller::class, 'answer2']);

@@ -36,6 +36,51 @@ class Controller extends BaseController {
         echo json_encode($result);
     }
 
+    public function answer2($size) {
+
+        for ($i=0; $i < $size-1; $i++) {
+
+            // print spaces 
+            for ($j=0; $j < $size - $i - 1; $j++) {
+                echo "+";
+            }
+
+            // print stars 
+            for ($k=0; $k < 2 * $i + 1; $k++) {
+                echo "-";
+            }
+
+            // print spaces 
+            for ($j=0; $j < $size - $i - 1; $j++) {
+                echo "+";
+            }
+
+            echo "<br>";
+        }
+
+        for ($i=0; $i < $size; $i++) {
+
+            // print spaces
+            for ($j=0; $j < $i; $j++) {
+                echo "+";
+            }
+
+            // print stars
+            for ($k=0; $k < 2 * ($size - $i) - 1; $k++) {
+                echo "-";
+            }
+
+            for ($j=0; $j < $i; $j++) {
+                echo "+";
+                ;
+            }
+
+            echo "<br>";
+        }
+    }
+
+
+
     public function isAnagram($str1, $str2) {
         $char1=str_split($str1);
         $char2=str_split($str2);
