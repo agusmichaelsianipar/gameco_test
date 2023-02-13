@@ -36,7 +36,7 @@ class Controller extends BaseController {
         echo json_encode($result);
     }
 
-    public function answer2($size) {
+    public function answer3($size) {
 
         for ($i=0; $i < $size-1; $i++) {
 
