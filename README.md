@@ -3,24 +3,36 @@
 ## Project Maps
 - Hit localhost:8000/answer1 to access the answer of first test's question
 - Hit localhost:8000/answer3 to access the answer of third test's question
-- Below is the resource to api by consuming [swapi](https://swapi.dev/) : 
--- Films ==localhost:8000/api/films==
--- People ==localhost:8000/api/people==
--- Planets ==localhost:8000/api/planets==
--- Species ==localhost:8000/api/species==
--- Startships ==localhost:8000/api/starships==
--- Vehicles ==localhost:8000/api/vehicles==
+- Below is the resource to api by consuming [swapi](https://swapi.dev/) : <br>
+* Films 
+>localhost:8000/api/films<br>
+* People 
+>localhost:8000/api/people<br>
+* Planets
+>localhost:8000/api/planets<br>
+* Species
+>localhost:8000/api/species<br>
+* Startships 
+>localhost:8000/api/starships><br>
+* Vehicles
+>localhost:8000/api/vehicles<br>
 
 This api implements only pagination and searching
 
 
 ## How To Install
-- Clone this project by doing ==git clone https://github.com/agusmichaelsianipar/gameco_test.git== in the terminal or command prompt
--  Move your terminal working location to the project file by doing ==cd gameco_test==
-- Install composer dependencies by doing ==composer install==
-- Install NPM dependencies by doing ==npm install==
-- Create a copy of your .env file ==cp .env.example .env==
-- Generate an app encryption key ==php artisan key:generate==
+- Clone this project by doing this in the terminal or command prompt
+>git clone https://github.com/agusmichaelsianipar/gameco_test.git
+- Move your terminal working location to the project file by doing
+>cd gameco_test
+- Install composer dependencies by doing 
+>composer install
+- Install NPM dependencies by doing 
+>npm install
+- Create a copy of your .env file 
+>cp .env.example .env
+- Generate an app encryption key 
+>php artisan key:generate
 
 ## About Laravel
 
